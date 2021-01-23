@@ -6,7 +6,9 @@ import { ImageUsecase } from '../ImageUsecase';
 describe("ImageUsecase", () => {
   describe("toImage", () => {
     it("ImageFileを返す", () => {
-      const clipBoard = {} as ClipBoard;
+      const clipBoard = new ClipBoard(
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA"
+      );
       const target = new ImageUsecase();
 
       const actual = target.toImage(clipBoard);
