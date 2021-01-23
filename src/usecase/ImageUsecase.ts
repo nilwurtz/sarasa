@@ -1,5 +1,5 @@
 import { ClipBoard } from '@/domain/ClipBoard';
-import { ImageFile } from '@/domain/ImageFIle';
+import { ImageFile } from '@/domain/ImageFile';
 
 export class ImageUsecase {
   toImage(clipBoard: ClipBoard) {

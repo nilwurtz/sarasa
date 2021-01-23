@@ -11,4 +11,9 @@ export class ImageFile {
   getBuffer() {
     return Buffer.from(this.data(), "base64");
   }
+  getExtention() {
+    return this.value
+      .toString()
+      .slice(this.value.indexOf("/") + 1, this.value.indexOf(";"));
+  }
 }

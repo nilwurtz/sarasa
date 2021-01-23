@@ -1,5 +1,5 @@
 import { ClipBoard } from '@/domain/ClipBoard';
-import { ImageFile } from '@/domain/ImageFIle';
+import { ImageFile } from '@/domain/ImageFile';
 
 import { ImageUsecase } from '../ImageUsecase';
 
