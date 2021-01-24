@@ -11,4 +11,6 @@ if [ ! -f $current/dist/main.js ]; then
     npm run build
 fi
 
+./clip.sh $1
+
 node dist/main.js $@
