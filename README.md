@@ -28,3 +28,9 @@ $ npm run dev ~/file/path
 ```
 $ npm test
 ```
+
+### for yanmaga
+
+```
+$ $$(".-cv-page-content canvas")[2].toDataURL("image/png")
+```
