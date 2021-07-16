@@ -1,8 +1,8 @@
-import { FilePath } from './domain/FilePath';
-import { FileDriver } from './driver/FileDriver';
-import { FileGateway } from './gateway/FileGateway';
-import { FileUsecase } from './usecase/FileUsecase';
-import { PathUsecase } from './usecase/PathUsecase';
+import { FilePath } from "./domain/FilePath";
+import { FileDriver } from "./driver/FileDriver";
+import { FileGateway } from "./gateway/FileGateway";
+import { FileUsecase } from "./usecase/FileUsecase";
+import { PathUsecase } from "./usecase/PathUsecase";
 
 const pathResource = new PathUsecase();
 const fileResource = new FileUsecase(new FileGateway(new FileDriver()));

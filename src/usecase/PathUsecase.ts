@@ -1,7 +1,7 @@
-import path from 'path';
+import path from "path";
 
-import { FilePath } from '@/domain/FilePath';
-import { ImageFile } from '@/domain/ImageFile';
+import { FilePath } from "@/domain/FilePath";
+import { ImageFile } from "@/domain/ImageFile";
 
 export class PathUsecase {
   getTargetPath(image: ImageFile, filePath: FilePath) {
