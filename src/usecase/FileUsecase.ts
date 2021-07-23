@@ -1,6 +1,6 @@
-import { FilePath } from '@/domain/FilePath';
-import { ImageFile } from '@/domain/ImageFile';
-import { FilePort } from '@/port/FilePort';
+import { FilePath } from "@/domain/FilePath";
+import { ImageFile } from "@/domain/ImageFile";
+import { FilePort } from "@/port/FilePort";
 
 export class FileUsecase {
   constructor(readonly filePort: FilePort) {}

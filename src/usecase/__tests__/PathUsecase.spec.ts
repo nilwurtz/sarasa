@@ -1,7 +1,7 @@
-import { FilePath } from '@/domain/FilePath';
-import { ImageFile } from '@/domain/ImageFile';
+import { FilePath } from "@/domain/FilePath";
+import { ImageFile } from "@/domain/ImageFile";
 
-import { PathUsecase } from '../PathUsecase';
+import { PathUsecase } from "../PathUsecase";
 
 describe("PathUsecase", () => {
   describe("getTargetPath", () => {

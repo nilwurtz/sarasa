@@ -1,6 +1,6 @@
-import path from 'path';
+import path from "path";
 
-import { FilePath } from '../FilePath';
+import { FilePath } from "../FilePath";
 
 describe("FilePath", () => {
   describe("fileName", () => {

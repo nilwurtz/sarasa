@@ -1,5 +1,5 @@
-import { OpenMode } from 'fs';
-import { readFile, writeFile } from 'fs/promises';
+import { OpenMode } from "fs";
+import { readFile, writeFile } from "fs/promises";
 
 export class FileDriver {
   async read(

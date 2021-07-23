@@ -1,8 +1,8 @@
-import { FilePath } from '@/domain/FilePath';
-import { ImageFile } from '@/domain/ImageFile';
-import { FilePort } from '@/port/FilePort';
+import { FilePath } from "@/domain/FilePath";
+import { ImageFile } from "@/domain/ImageFile";
+import { FilePort } from "@/port/FilePort";
 
-import { FileUsecase } from '../FileUsecase';
+import { FileUsecase } from "../FileUsecase";
 
 describe("FileUsecase", () => {
   describe("saveImageFile", () => {

@@ -1,4 +1,4 @@
-import { ImageFile } from '../ImageFile';
+import { ImageFile } from "../ImageFile";
 
 const validString = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA";
 
