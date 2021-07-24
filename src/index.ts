@@ -12,6 +12,7 @@ const main = () => {
   if (input === undefined) {
     throw new Error("TargetFile must have provided.");
   }
+
   const filePath = new FilePath(input);
 
   fileResource
