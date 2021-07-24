@@ -10,17 +10,19 @@ $ npm i
 
 ## run
 
+$TARGET: base64 image file
+
 ```
-$ npm build
-$ node dist/main.js ~/file/path
+$ npm run build
+$ node dist/main.js $TARGET
 ```
 
 ## dev
 
-### dev run
+### watching build
 
 ```
-$ npm run dev ~/file/path
+$ npm run dev
 ```
 
 ### test
