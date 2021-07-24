@@ -1,6 +1,6 @@
 import { build } from "esbuild";
 
-const isDev = process.env.NODE_ENV !== "production"
+const isDev = process.env.NODE_ENV !== "production";
 
 build({
   entryPoints: ["./src/index.ts"],
@@ -8,16 +8,18 @@ build({
   outfile: "dist/main.js",
   platform: "node",
   minify: !isDev,
-  watch: isDev ? {
-    onRebuild(error, result) {
-      if (error) console.error('watch build failed:', error.message)
-      else console.log('watch build succeeded:', result)
-    },
-  } : false,
+  watch: isDev
+    ? {
+        onRebuild(error, result) {
+          if (error) console.error("watch build failed:", error.message);
+          else console.log("watch build succeeded:", result);
+        },
+      }
+    : false,
 })
   .then(() => {
-    console.log(`Dev mode=${isDev}`)
-    console.log("build success.")
+    console.log(`Dev mode=${isDev}`);
+    console.log("build success.");
   })
   .catch(() => {
     console.error("build failed");
