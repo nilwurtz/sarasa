@@ -32,5 +32,5 @@ $ npm test
 ### for yanmaga
 
 ```
-$ $$(".-cv-page-content canvas")[2].toDataURL("image/png")
+$ $$(".-cv-page-content canvas").filter((e) => e.getBoundingClientRect().y === 0 &&  e.getBoundingClientRect().x > 0 )[0].toDataURL("image/png")
 ```
